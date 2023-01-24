@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="288.062">
+<testcase classname="To validate date changing functionality in the bookmyshow app" name="change date for the particular movie" time="36.502">
+<system-out><![CDATA[Given Open the Bookmyshow website and search 'Drishyam 2'...................passed
+When Change the movie date..................................................passed
+Then Verify that the date is changed........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Change Language functionality in the bookmyshow app" name="Change the Language in the website" time="19.506">
+<system-out><![CDATA[Given Open the Bookmyshow website...........................................passed
+When Enter location and Click SeeAll........................................passed
+Then Choose language and verify the output..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate price range changing functionality in the bookmyshow app" name="change price range for the particular movie" time="54.374">
+<system-out><![CDATA[Given Open the Bookmyshow website and search the 'Drishyam 2'...............passed
+When Change the price range.................................................passed
+Then Verify that the price range is changed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate booking functionality in the bookmyshow app" name="Book ticket for the particular movie" time="52.813">
+<system-out><![CDATA[Given Open the bookmyshow website and search 'Drishyam 2'...................passed
+When Select theatre and book the ticket.....................................passed
+Then Verify the result page.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate search functionality in the bookmyshow app" name="Search the different movies" time="21.902">
+<system-out><![CDATA[Given Open bookmyshow website...............................................passed
+When Search 'avatar' in the website.........................................passed
+Then Click enter and see the result 'Avatar: The Way of Water'..............passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate search functionality in the bookmyshow app" name="Search the different movies 2" time="20.894">
+<system-out><![CDATA[Given Open bookmyshow website...............................................passed
+When Search 'connect' in the website........................................passed
+Then Click enter and see the result 'Connect'...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate search functionality in the bookmyshow app" name="Search the different theatres" time="22.731">
+<system-out><![CDATA[Given Open the bookmyshow website...........................................passed
+When Search 'Elpro' name in the website.....................................passed
+Then Click enter and verify the result 'Elpro City'.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate signin functionality in the bookmyshow app" name="Signin the website" time="30.442">
+<system-out><![CDATA[Given Open Bookmyshow website...............................................passed
+When Enter location and Click signin........................................passed
+Then Enter credentials and signin the website...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate signin functionality in the bookmyshow app" name="Signin the website with invalid creditials" time="28.515">
+<system-out><![CDATA[Given Open Bookmyshow website...............................................passed
+When Enter location and Click signin........................................passed
+Then Enter invalid credentials and signin the website.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
